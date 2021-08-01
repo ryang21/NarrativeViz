@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+	<head>
+        <script src="https://d3js.org/d3.v7.min.js"></script>
+        <script src="https://rawgit.com/susielu/d3-annotation/master/d3-annotation.min.js"></script>
+        <script src="figure1.js"></script>
+        <script src="figure1b.js"></script>
+        <script src="figure2.js"></script>
+        <script src="test2.js"></script>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="style.css">
+
+    </head>
+
+	<body>
+        <h1>Covid-19 Confirmed Cases and Deaths in Santa Clara County</h1> 
+        <h1></h1>       
+        <p></p>
+        <button type="button2" onclick = "figure1()">New Cases</button>
+        <button type="button2" onclick = "figure1b()">Deaths</button>
+        <button type="button3" onclick = "figure2()">Age group</button>
+        <br>
+        <br>
+        <label ><input id = "r1"type="radio" name="dataset" value="Confirmed"checked> Confirmed Cases</label>
+        <label ><input id = "r2" type="radio" name="dataset" value="Death"> Death</label>
+        <h2>          Overview of the new cases in 2021</h2>
+        <p></p>
+        <script>
+            
+            figure1();
+            
+        </script>
+
+    </body>
+</html>
