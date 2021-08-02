@@ -1,0 +1,53 @@
+    body {
+       background-color: rgb(241, 240, 240);
+       margin: 30px;
+       font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    }
+    h3 {
+        position: absolute;
+        left: 260px;
+        top: 160px;
+    }
+    div {
+        position: absolute;
+        left: 500px;
+        top: 210px;
+    }
+    path.line
+    {
+        fill: none;
+        stroke: #000;
+    }
+    path.slice{
+        stroke-width:2px;
+    }
+    .button{
+        background-color: Gainsboro;
+        font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+        font-size: 14px;
+        padding: 20px;
+        border: 1px;
+    }
+    polyline{
+        opacity: .3;
+        stroke: black;
+        stroke-width: 2px;
+        fill: none;
+    }
+
+    div.tooltip {
+        position: absolute;
+        text-align: center;
+        width: 120px;
+        height: 40px;
+        padding: 2px;
+        font: 12px sans-serif;
+        color: rgb(48, 46, 46);
+        background: rgba(96, 171, 233, 0.198);
+        border: 0px;
+        border-radius: 8px;
+        pointer-events: none;
+      }
+
+      
+      
