@@ -111,8 +111,7 @@ async function figure1b() {
     }
     var mousemove = function(event, d) {
         Tooltip
-            .html("Date: " + d3.timeFormat("%m/%d/%Y")(d['Date'])  + "<br/>New_Death: " + d['New_Death']+ "<br/>Total Death: " + d['Cumulative_Death']
-            )
+            .html("Date: " + d3.timeFormat("%m/%d/%Y")(d['Date'])  + "<br/>New_Death: " + d['New_Death'])
             .style("top", (parseInt(d3.select(this).attr("cy")) + 150 ) +"px")
             .style("left", (parseInt(d3.select(this).attr("cx")) + 100) + "px")
     }
